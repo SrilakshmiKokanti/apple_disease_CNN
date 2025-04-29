@@ -5,6 +5,7 @@ Welcome to the Apple Disease Detection project! This initiative is designed to h
 2. Cedar Apple Rust
 3. Scab
 4. Healthy
+
 This tool is particularly useful for farmers, researchers, and agricultural experts looking to diagnose plant health efficiently.
 
 ## What’s Inside?
