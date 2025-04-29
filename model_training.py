@@ -17,17 +17,17 @@ NUM_CLASSES = 4
 train_gen, val_gen, test_gen = get_data_loaders(
     data_dir=DATA_DIR, 
     batch_size=BATCH_SIZE, 
-    img_size=IMG_SIZE      # Pass IMG_SIZE to ensure all generators use (128, 128)
+    img_size=IMG_SIZE      
 )
 
 # Build and compile model
 model = build_custom_cnn(
-    input_shape=(128, 128, 3),   # Changed from (256, 256, 3)
+    input_shape=(128, 128, 3),  
     num_classes=NUM_CLASSES
 )
 
 model.compile(
-    optimizer=tf.keras.optimizers.Adam(learning_rate=0.001),  # Use 0.001 as a good starting point
+    optimizer=tf.keras.optimizers.Adam(learning_rate=0.001),  
     loss='categorical_crossentropy',
     metrics=['accuracy']
 )
