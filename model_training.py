@@ -8,7 +8,7 @@ import json
 
 # Configs
 DATA_DIR = 'dataset'
-IMG_SIZE = (128, 128)        # Changed from (256, 256) to (128, 128)
+IMG_SIZE = (128, 128)        
 BATCH_SIZE = 50
 EPOCHS = 50
 NUM_CLASSES = 4
