@@ -1,0 +1,11 @@
+Model,Accuracy,Time (s)
+Custom_Conv3_DCNN,97.05,1.28
+VGG16,96.72,2315.26
+VGG19,94.75,4089.94
+ResNet50,99.02,828.87
+ResNet152,98.69,1861.7
+DenseNet201,99.02,9876.22
+InceptionV3,92.46,1136.92
+Xception,95.08,1783.51
+MobileNet,97.05,360.53
+MobileNetV2,99.34,343.91
